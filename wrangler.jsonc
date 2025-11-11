@@ -1,0 +1,20 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "main": ".open-next/worker.js",
+  "name": "test_cf",
+  "compatibility_date": "2025-11-11",
+  "compatibility_flags": [
+    "nodejs_compat",
+    "modules_esm",
+    "streams_enable_constructors",
+    "websocket_streams",
+    "service_workers"
+  ],
+  "assets": {
+    "directory": ".open-next/assets",
+    "binding": "ASSETS"
+  },
+  "vars": {
+    "NEXT_PUBLIC_APP_ENV": "afun.dev"
+  }
+}
