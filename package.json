@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "build2": "node scripts/set-env.js && npx @cloudflare/next-on-pages@1",
+    "build2": "node scripts/set-env.mjs && npx @cloudflare/next-on-pages@1",
     "pages:build": "npx @cloudflare/next-on-pages",
     "preview2": "npm run pages:build && wrangler pages dev .vercel/output/static",
     "deploy2": "npm run pages:build && wrangler pages deploy .vercel/output/static",
