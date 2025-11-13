@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "build:cf": "opennextjs-cloudflare build",
-    "deploy:cf": "wrangler pages deploy .open-next --project-name=test_cf",
+    "deploy:cf": "wrangler pages deploy .open-next --project-name=test-cf",
     "start": "next start",
     "dev:abear": "dotenv -e env/.env.abear_dev -- next dev",
     "dev:afun": "dotenv -e env/.env.afun.dev -- next dev",
