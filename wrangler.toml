@@ -7,3 +7,7 @@ compatibility_date = "2024-11-01"
 # Pages 建置輸出目錄
 pages_build_output_dir = ".vercel/output/static"
 
+
+
+# 啟用 Node.js 相容性 (如果需要)
+compatibility_flags = ["nodejs_compat"]
