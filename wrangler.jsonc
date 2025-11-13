@@ -1,5 +1,6 @@
 // wrangler.jsonc
 {
   "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "test_cf",
   "pages_build_output_dir": ".open-next"
 }
