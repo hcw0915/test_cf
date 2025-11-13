@@ -7,11 +7,3 @@ compatibility_date = "2024-11-01"
 # Pages 建置輸出目錄
 pages_build_output_dir = ".vercel/output/static"
 
-# 環境變數 (可選)
-[vars]
-# MY_VARIABLE = "production-value"
-
-# 開發環境配置 (可選)
-[env.dev.vars]
-# MY_VARIABLE = "development-value"
-NEXT_PUBLIC_APP_ENV = "development"
